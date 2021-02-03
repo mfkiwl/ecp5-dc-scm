@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 10
 Title "ECP5 - Datacenter Secure Control Module (DC-SCM)"
 Date ""
-Rev "1.0.0"
+Rev "1.0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -16,10 +16,10 @@ $EndDescr
 Wire Wire Line
 	6250 2750 6450 2750
 $Comp
-L ecp5-dc-scm:C_100n_0402 C31
+L ecp5-dc-scm:C_100n_0402 C35
 U 1 1 5FD1DAE4
 P 6875 2850
-F 0 "C31" V 6825 2975 60  0000 C CNN
+F 0 "C35" V 6825 2975 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 2700 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 7075 3050 60  0001 L CNN
 F 3 "" H 6875 2850 50  0001 C CNN
@@ -38,10 +38,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 3350 6450 3350
 $Comp
-L ecp5-dc-scm:C_100n_0402 C28
+L ecp5-dc-scm:C_100n_0402 C32
 U 1 1 5FD279F6
 P 6600 3350
-F 0 "C28" V 6342 3350 60  0000 C CNN
+F 0 "C32" V 6342 3350 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 3200 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 6800 3550 60  0001 L CNN
 F 3 "" H 6600 3350 50  0001 C CNN
@@ -52,10 +52,10 @@ F 6 "100n" V 6440 3350 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ecp5-dc-scm:C_100n_0402 C32
+L ecp5-dc-scm:C_100n_0402 C36
 U 1 1 5FD279FF
 P 6875 3450
-F 0 "C32" V 6825 3575 60  0000 C CNN
+F 0 "C36" V 6825 3575 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 3300 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 7075 3650 60  0001 L CNN
 F 3 "" H 6875 3450 50  0001 C CNN
@@ -335,10 +335,10 @@ Wire Wire Line
 Wire Wire Line
 	4550 5350 4550 5675
 $Comp
-L ecp5-dc-scm:GND #PWR010
+L ecp5-dc-scm:GND #PWR0103
 U 1 1 5FDC4FA1
 P 4550 5675
-F 0 "#PWR010" H 4550 5425 50  0001 C CNN
+F 0 "#PWR0103" H 4550 5425 50  0001 C CNN
 F 1 "GND" H 4555 5502 50  0000 C CNN
 F 2 "" H 4550 5675 50  0001 C CNN
 F 3 "" H 4550 5675 50  0001 C CNN
@@ -357,10 +357,10 @@ F 3 "" H 6325 5675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm:C_10u_0402 C35
+L ecp5-dc-scm:C_10u_0402 C39
 U 1 1 5FDCA87A
 P 8725 5900
-F 0 "C35" H 8750 6000 60  0000 L CNN
+F 0 "C39" H 8750 6000 60  0000 L CNN
 F 1 "C_10u_0402" H 8725 5750 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 8925 6100 60  0001 L CNN
 F 3 "" H 8725 5900 50  0001 C CNN
@@ -371,10 +371,10 @@ F 6 "10u" H 8750 5825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm:C_10u_0402 C36
+L ecp5-dc-scm:C_10u_0402 C40
 U 1 1 5FDCB4B9
 P 9075 5900
-F 0 "C36" H 9100 6000 60  0000 L CNN
+F 0 "C40" H 9100 6000 60  0000 L CNN
 F 1 "C_10u_0402" H 9075 5750 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 9275 6100 60  0001 L CNN
 F 3 "" H 9075 5900 50  0001 C CNN
@@ -385,10 +385,10 @@ F 6 "10u" H 9100 5825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm:C_10u_0402 C37
+L ecp5-dc-scm:C_10u_0402 C41
 U 1 1 5FDCB85E
 P 9425 5900
-F 0 "C37" H 9450 6000 60  0000 L CNN
+F 0 "C41" H 9450 6000 60  0000 L CNN
 F 1 "C_10u_0402" H 9425 5750 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 9625 6100 60  0001 L CNN
 F 3 "" H 9425 5900 50  0001 C CNN
@@ -399,10 +399,10 @@ F 6 "10u" H 9450 5825 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ecp5-dc-scm:C_10u_0402 C38
+L ecp5-dc-scm:C_10u_0402 C42
 U 1 1 5FDCBB8F
 P 9775 5900
-F 0 "C38" H 9800 6000 60  0000 L CNN
+F 0 "C42" H 9800 6000 60  0000 L CNN
 F 1 "C_10u_0402" H 9775 5750 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 9975 6100 60  0001 L CNN
 F 3 "" H 9775 5900 50  0001 C CNN
@@ -486,44 +486,44 @@ NoConn ~ 4650 1950
 NoConn ~ 6250 1950
 NoConn ~ 6250 2050
 Text GLabel 6775 3050 2    50   Input ~ 0
-PCIE_HPM_RXP[0]
+PCIE_HPM_RX0_P
 Text GLabel 6775 3150 2    50   Input ~ 0
-PCIE_HPM_RXN[0]
+PCIE_HPM_RX0_N
 Text GLabel 7350 2750 2    50   Input ~ 0
-PCIE_HPM_TXP[0]
+PCIE_HPM_TX0_P
 Text GLabel 7350 2850 2    50   Input ~ 0
-PCIE_HPM_TXN[0]
+PCIE_HPM_TX0_N
 Text GLabel 6775 3650 2    50   Input ~ 0
-PCIE_HPM_RXP[1]
+PCIE_HPM_RX1_P
 Text GLabel 6775 3750 2    50   Input ~ 0
-PCIE_HPM_RXN[1]
+PCIE_HPM_RX1_N
 Text GLabel 6775 4250 2    50   Input ~ 0
-PCIE_HPM_RXP[2]
+PCIE_HPM_RX2_P
 Text GLabel 6775 4350 2    50   Input ~ 0
-PCIE_HPM_RXN[2]
+PCIE_HPM_RX2_N
 Text GLabel 6775 4850 2    50   Input ~ 0
-PCIE_HPM_RXP[3]
+PCIE_HPM_RX3_P
 Text GLabel 6775 4950 2    50   Input ~ 0
-PCIE_HPM_RXN[3]
+PCIE_HPM_RX3_N
 Text GLabel 7350 3350 2    50   Input ~ 0
-PCIE_HPM_TXP[1]
+PCIE_HPM_TX1_P
 Text GLabel 7350 3450 2    50   Input ~ 0
-PCIE_HPM_TXN[1]
+PCIE_HPM_TX1_N
 Text GLabel 7350 3950 2    50   Input ~ 0
-PCIE_HPM_TXP[2]
+PCIE_HPM_TX2_P
 Text GLabel 7350 4050 2    50   Input ~ 0
-PCIE_HPM_TXN[2]
+PCIE_HPM_TX2_N
 Text GLabel 7350 4550 2    50   Input ~ 0
-PCIE_HPM_TXP[3]
+PCIE_HPM_TX3_P
 Text GLabel 7350 4650 2    50   Input ~ 0
-PCIE_HPM_TXN[3]
+PCIE_HPM_TX3_N
 Wire Wire Line
 	6250 3950 6450 3950
 $Comp
-L ecp5-dc-scm:C_100n_0402 C29
+L ecp5-dc-scm:C_100n_0402 C33
 U 1 1 60030DA4
 P 6600 3950
-F 0 "C29" V 6342 3950 60  0000 C CNN
+F 0 "C33" V 6342 3950 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 3800 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 6800 4150 60  0001 L CNN
 F 3 "" H 6600 3950 50  0001 C CNN
@@ -534,10 +534,10 @@ F 6 "100n" V 6440 3950 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ecp5-dc-scm:C_100n_0402 C33
+L ecp5-dc-scm:C_100n_0402 C37
 U 1 1 60030DAD
 P 6875 4050
-F 0 "C33" V 6825 4175 60  0000 C CNN
+F 0 "C37" V 6825 4175 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 3900 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 7075 4250 60  0001 L CNN
 F 3 "" H 6875 4050 50  0001 C CNN
@@ -556,10 +556,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 4550 6450 4550
 $Comp
-L ecp5-dc-scm:C_100n_0402 C30
+L ecp5-dc-scm:C_100n_0402 C34
 U 1 1 6003AA20
 P 6600 4550
-F 0 "C30" V 6342 4550 60  0000 C CNN
+F 0 "C34" V 6342 4550 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 4400 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 6800 4750 60  0001 L CNN
 F 3 "" H 6600 4550 50  0001 C CNN
@@ -570,10 +570,10 @@ F 6 "100n" V 6440 4550 50  0000 C CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L ecp5-dc-scm:C_100n_0402 C34
+L ecp5-dc-scm:C_100n_0402 C38
 U 1 1 6003AA29
 P 6875 4650
-F 0 "C34" V 6825 4775 60  0000 C CNN
+F 0 "C38" V 6825 4775 60  0000 C CNN
 F 1 "C_100n_0402" H 6875 4500 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 7075 4850 60  0001 L CNN
 F 3 "" H 6875 4650 50  0001 C CNN
@@ -597,25 +597,12 @@ Wire Wire Line
 	6775 4850 6250 4850
 Wire Wire Line
 	6775 4950 6250 4950
-$Comp
-L ecp5-dc-scm:9774030151 SP?
-U 1 1 600E4B8D
-P 7075 5500
-F 0 "SP?" H 7205 5553 60  0000 L CNN
-F 1 "9774030151" H 7205 5447 60  0000 L CNN
-F 2 "ecp5-dc-scm-footprints:9774030151" H 7075 5500 60  0001 C CNN
-F 3 "https://www.we-online.com/catalog/datasheet/9774030151.pdf" H 7075 5500 60  0001 C CNN
-F 4 "Wurth Elektronik" H 7075 5500 50  0001 C CNN "Manufacturer"
-F 5 "9774030151" H 7075 5500 50  0001 C CNN "MPN"
-	1    7075 5500
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6875 5500
 $Comp
-L ecp5-dc-scm:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP1
 U 1 1 600EF41D
 P 3550 2550
-F 0 "TP?" V 3550 2450 50  0000 C CNN
+F 0 "TP1" V 3550 2450 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3550 2450 50  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3750 2750 60  0001 L CNN
 F 3 "" H 3750 2850 60  0001 L CNN
@@ -623,10 +610,10 @@ F 3 "" H 3750 2850 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ecp5-dc-scm:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP2
 U 1 1 600F1E59
 P 3575 2650
-F 0 "TP?" V 3575 2550 50  0000 C CNN
+F 0 "TP2" V 3575 2550 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3575 2550 50  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3775 2850 60  0001 L CNN
 F 3 "" H 3775 2950 60  0001 L CNN
@@ -634,10 +621,10 @@ F 3 "" H 3775 2950 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ecp5-dc-scm:TP_SMD1MM TP?
+L ecp5-dc-scm:TP_SMD1MM TP3
 U 1 1 600F202B
 P 3750 2850
-F 0 "TP?" V 3750 2750 50  0000 C CNN
+F 0 "TP3" V 3750 2750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3750 2750 50  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:Testpoint_smd_1mm" H 3950 3050 60  0001 L CNN
 F 3 "" H 3950 3150 60  0001 L CNN
@@ -650,10 +637,10 @@ Connection ~ 3750 2750
 Wire Wire Line
 	3750 2750 4050 2750
 $Comp
-L ecp5-dc-scm:C_100n_0402 C27
+L ecp5-dc-scm:C_100n_0402 C31
 U 1 1 5FD1CF34
 P 6600 2750
-F 0 "C27" V 6342 2750 60  0000 C CNN
+F 0 "C31" V 6342 2750 60  0000 C CNN
 F 1 "C_100n_0402" H 6600 2600 60  0001 C CNN
 F 2 "ecp5-dc-scm-footprints:0402-cap" H 6800 2950 60  0001 L CNN
 F 3 "" H 6600 2750 50  0001 C CNN
@@ -667,4 +654,17 @@ Text GLabel 6775 2550 2    50   Input ~ 0
 CLK_PCIE_x4_DN
 Text GLabel 6775 2450 2    50   Input ~ 0
 CLK_PCIE_x4_DP
+$Comp
+L ecp5-dc-scm:9774025151 SP1
+U 1 1 63330A66
+P 7075 5500
+F 0 "SP1" H 7205 5553 60  0000 L CNN
+F 1 "9774025151" H 7205 5447 60  0000 L CNN
+F 2 "ecp5-dc-scm-footprints:9774025151" H 7075 5500 60  0001 C CNN
+F 3 "" H 7075 5500 60  0001 C CNN
+F 4 "Wurth Elektronik" H 7075 5500 50  0001 C CNN "Manufacturer"
+F 5 "9774025151" H 7075 5500 50  0001 C CNN "MPN"
+	1    7075 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
