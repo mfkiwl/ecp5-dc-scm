@@ -2,6 +2,8 @@
 ECP5 DC-SCM
 ============
 
+Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+
 .. figure:: img/ecp5-dc-scm.png
 
 Overview
@@ -41,4 +43,9 @@ Key Features
 Block diagram
 -------------
 
-.. figure:: img/diagram.png
+.. figure:: img/ecp5-dc-scm-diagram.png
+
+License
+=======
+
+`Apache-2.0 <LICENSE>`_
